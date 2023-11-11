@@ -1,0 +1,29 @@
+nav {
+	float: right;
+}
+
+nav > ul {
+	float: left;
+	position: relative;
+}
+
+nav li {
+	list-style: none;
+	float: left;
+}
+
+nav li a {
+	float: left;
+	padding: 35px;
+}
+
+nav li a:hover {
+	background: #2c3e50;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,33 @@
+#header {
+	background: #1e262d;
+	width: 100%;
+	position: relative;
+}
+
+#header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.logo {
+	float: left;
+	padding: 26px 0 26px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a > span {
+	margin-left: 15px;
+}
+
+.logo a {
+	font-size: 28px;
+	display: flex;
+	align-items: flex-end;
+	padding: 0 0 0 20px;
+}
